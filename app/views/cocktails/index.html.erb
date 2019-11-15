@@ -5,9 +5,7 @@
   <li>
     <%= link_to cocktail.name, cocktail_path(cocktail) %>
     <% cocktail.ingredients.each do |ingredient|%>
-      </li>
-        <%= ingredient.name %>
-      </li>
+      <p> <%= ingredient.name %> </p>
       <% end %>
   </li>
     <% end %>
